@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Your Name</title>
+      <meta name="keywords" content="Your Name" />
+      <link rel="stylesheet" type="text/css" href="simplest.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="./toggle.js"></script>
+      <script src="./mergeSort.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="content">
+            <table>
+               <tr>
+                  <td>
+                     <h2>Shruti Naresh Rathod
+                     </h2>
+                     <p>Human Machine Interaction Submissions</p>
+                     <p>Terna Engineering College, Nerul</p>
+                  </td>
+               </tr>
+            </table>
+            <p>
+               TU3F1819029 <br>
+               BE-A-43, Computer Engineering
+            </p>
+            <h2>
+               Submissions
+            </h2>
+            <a class="toggle_link" href="javascript:toggle('data-venue', false)">Sort by Experiments</a> |
+            <a class="toggle_link" href="javascript:toggle('data-topic', false)">Sort by Assignments</a> |
+
+			<div class="anchors"></div>
+            <div class="publications">
+            </div>
+    
+         </div>
+      </div>
+	  
+      <div id="publicationdatabase" style="display: none;">
+         <ul>
+            <li class="publication" data-venue = "Experiment 1-9">
+               <span class="paper_title">Experiment 1</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI1.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>		
+            <li class="publication"  data-venue = "Experiment 1-9">
+               <span class="paper_title">Experiment 2</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI2.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+            <li class="publication"  data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 3</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI3.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+            <li class="publication"  data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 4</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI4.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>		
+            <li class="publication"  data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 5</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI5.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+            <li class="publication"  data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 6</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI6.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+            <li class="publication"  data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 7</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI7.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+            <li class="publication"  data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 8</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI8.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+            <li class="publication" data-venue = "Experiment 1-9" >
+               <span class="paper_title">Experiment 9</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 HMI9.pdf">[PDF]</a>&nbsp;
+               <br />		
+			   <br />
+            </li>	
+
+            <li class="publication" data-topic="Assignment 1-6" >
+               <span class="paper_title">Assignment 1</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 Assignment 1.pdf">[PDF]</a>&nbsp;
+               <br />
+			   <br />
+            </li>   
+            <li class="publication" data-topic="Assignment 1-6" >
+               <span class="paper_title">Assignment 2</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 Assignment 2.pdf">[PDF]</a>&nbsp;
+               <br />
+			   <br />
+            </li>   
+            <li class="publication" data-topic="Assignment 1-6" >
+               <span class="paper_title">Assignment 3</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 Assignment 3.pdf">[PDF]</a>&nbsp;
+               <br />
+			   <br />
+            </li>   
+            <li class="publication" data-topic="Assignment 1-6" >
+               <span class="paper_title">Assignment 4</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 Assignment 4.pdf">[PDF]</a>&nbsp;
+               <br />
+			   <br />
+            </li> 
+            <li class="publication" data-topic="Assignment 1-6" >
+               <span class="paper_title">Assignment 5</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 Assignment 5.pdf">[PDF]</a>&nbsp;
+               <br />
+			   <br />
+            </li> 
+            <li class="publication" data-topic="Assignment 1-6" >
+               <span class="paper_title">Assignment 6</span>&nbsp;&nbsp;<a href="C:\Users\shrut\OneDrive\Desktop\Experiment\A43 Assignment 6.pdf">[PDF]</a>&nbsp;
+               <br />
+			   <br />
+            </li> 
+      </div>
+      <script type="text/javascript">
+         $(document).ready(toggle('data-time', false));	
+      </script>
+   </body>
+</html>
